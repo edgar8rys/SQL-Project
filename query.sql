@@ -52,6 +52,3 @@ JOIN employees
 JOIN departments
  ON departments.dept_no = dept_emp.dept_no
 WHERE departments.dept_name LIKE 'Sales' OR departments.dept_name LIKE 'Development'
-
--- In descending order, list the frequency count of employee last names
--- i.e., how many employees share each last name.
